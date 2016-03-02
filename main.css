@@ -1,0 +1,31 @@
+/*
+Breakpoints: 
+320px - 375px; GREEN
+376px - 667px; YELLOW
+667px - 1024px; RED
+1024px - 1600px; BLUE
+*/
+
+div{
+	height: 25%;
+}
+@media (min-width: 320px) and (max-width: 375px) {
+	div{
+		background-color: green;
+	}
+}
+@media(min-width:376px) and ( max-width: 667px){
+	div{
+		background-color: yellow;
+	}
+}
+@media(min-width:667px) and ( max-width: 1024px){
+	div{
+		background-color: red;
+	}
+}
+@media(min-width:1024px) and ( max-width: 1600px){
+	div{
+		background-color: blue;
+	}
+}
